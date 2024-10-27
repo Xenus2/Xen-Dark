@@ -1,0 +1,39 @@
+{
+  "name": "xenus-dark",
+  "displayName": "Xenus Dark",
+  "description": "A sleek, dark theme with vibrant highlights designed for optimal readability and focus. Perfect for developers who want a modern, minimal interface that enhances code clarity and reduces eye strain.",
+  "publisher": "Xenus",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xenus2/Xen-Dark"
+  },
+  "icon": "images/logo.png",
+  "keywords": [
+    "theme",
+    "Dark",
+    "Minimal",
+    "Eye",
+    "Strain",
+    "Peaceful",
+    "xenus",
+    "Xenus",
+    "dark theme",
+    "Dark Theme" 
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Xenus Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Xenus Dark-color-theme.json"
+      }
+    ]
+  }
+}
